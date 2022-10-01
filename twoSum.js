@@ -57,8 +57,8 @@ function twoSumOptimized(nums,target){
 // console.log(twoSumBruteForce([2,7,11,15],9));
 // console.log(twoSumOptimized([2,7,11,15],9));
 
-/*
 
+/*
 Steps For Optimized Solution
 1 - Create a hashmap and itrate over the array .
 2 - Take difference of the value of that itration on that index - target we are looking for.
