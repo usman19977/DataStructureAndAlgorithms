@@ -6,7 +6,7 @@ Space Complexity = O(1) - Space Complexity should be constant because we are not
 
 */
 
-function bruteforceSolution(nums){
+function containsDublicatebruteforceSolution(nums){
     for (let i = nums.length; i >= 0; i--) {
         const element = nums[i];
      for (let j = 0; j < nums.length; j++) {
@@ -27,7 +27,7 @@ Time Complexity = O(N)
 Space Complexity = O(N) - Because We use Hashmap
 
 */
-function optimizedSolution(nums){
+function containsDublicateoptimizedSolution(nums){
     let hashMap = {};
     for (let i = 0; i < nums.length; i++) {
        if(hashMap.hasOwnProperty(nums[i])){
@@ -39,8 +39,8 @@ function optimizedSolution(nums){
   
 }
 
-// console.log(bruteforceSolution([1,2,3,6]));
-// console.log(optimizedSolution([1,2,3,6]));
+// console.log(containsDublicatebruteforceSolution([1,2,3,6]));
+// console.log(containsDublicateoptimizedSolution([1,2,3,6]));
 
 
 /*
