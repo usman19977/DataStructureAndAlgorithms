@@ -1,5 +1,5 @@
 /*
-BruteForce Attempt
+Optimzed Attempt
 Time Complexity = O(W * H) - Because we have to itrate Top to bottom whole matrix
 Space Complexity = O(W * H) - Space Complexity should because we need to same same size of matrix in memory
 */
