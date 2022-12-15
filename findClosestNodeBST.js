@@ -1,7 +1,7 @@
 /*
 Optimze Attempt
-Time Complexity = O(NlogN) - Because we will break it down to NlogN as we took advantage of BTS properties
-Space Complexity = O(H) - Space Complexity should height of BST as we need to traverse till leaf
+Time Complexity = O(logN) - Because we will break it down to NlogN as we took advantage of BTS properties
+Space Complexity = O(logN) - Space Complexity should height of BST as we need to traverse till leaf
 */
 class Node {
   constructor(value) {
